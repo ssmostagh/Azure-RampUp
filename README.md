@@ -1,9 +1,8 @@
 # Azure Ramp-Up
-A curated guide to get going fast on the Azure platform. 
-Links, best-practices, explanantions and comments, I wish I had known before 
-I started using Azure.
+A guide to get going fast on the Azure platform under editing with progress of learning path. 
+Links, best-practices, explanantions and comments helpful before I started using Azure.
 
-**DRAFT VERSION 0.3** (still early stage, TOC is almost final)
+**DRAFT VERSION 0.1**
 
 ## Table of Contents
 
@@ -101,6 +100,8 @@ Endpoints: are [listed here](https://github.com/arafato/Azure-RampUp/blob/master
 
 For further information on the German cloud, the data trustee model, and the data trustee agreement, please refer to the according resources in the [German Cloud](#german-cloud) section.
 
+*Please note:* There are some changes occuring due to general European/data sovereignty.There are 2 more regions planned for Germany.
+
 #### Azure China Cloud
 Azure China Cloud is available through a unique partnership between Microsoft and 21Vianet, one of the country’s largest Internet providers.
 
@@ -121,7 +122,7 @@ Endpoints: are [listed here](https://github.com/arafato/Azure-RampUp/blob/master
 `$ az cloud list --query "[?name == 'AzureUSGovernment'].endpoints"`
 
 ### Regions
-The Azure platform is currently comprised of 54 regions world-wide.
+The Azure platform is currently comprised of 54 regions world-wide with 10 regions announced.
 A region is a geographical location of a cluster of Azure data-centers. Each region is assigned to one and only one environment.
 More information at [https://azure.microsoft.com/regions/](https://azure.microsoft.com/regions/)
 
