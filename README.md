@@ -121,7 +121,7 @@ Endpoints: are [listed here](https://github.com/arafato/Azure-RampUp/blob/master
 `$ az cloud list --query "[?name == 'AzureUSGovernment'].endpoints"`
 
 ### Regions
-The Azure platform is currently comprised of 34 regions world-wide.
+The Azure platform is currently comprised of 54 regions world-wide.
 A region is a geographical location of a cluster of Azure data-centers. Each region is assigned to one and only one environment.
 More information at [https://azure.microsoft.com/regions/](https://azure.microsoft.com/regions/)
 
