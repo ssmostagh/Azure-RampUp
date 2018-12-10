@@ -60,7 +60,6 @@ Azure currently provides the following environments:
 | German Cloud | `AzureGermanCloud` |
 | US Government Cloud | `AzureUSGovernment` |
 | China Cloud | `AzureChinaCloud` |
-| Australia Cloud | `AzureAustraliaCloud` |
 
 where *Name to Use* is the name to be used in the context of our [Developer Tooling](#developer-tooling). 
 
