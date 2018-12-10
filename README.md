@@ -60,6 +60,7 @@ Azure currently provides the following environments:
 | German Cloud | `AzureGermanCloud` |
 | US Government Cloud | `AzureUSGovernment` |
 | China Cloud | `AzureChinaCloud` |
+| Australia Cloud | `AzureAustraliaCloud` |
 
 where *Name to Use* is the name to be used in the context of our [Developer Tooling](#developer-tooling). 
 
@@ -73,7 +74,7 @@ where *Name to Use* is the name to be used in the context of our [Developer Tool
 them talk to the correct environment (see section [Developer Tooling](#developer-tooling) for more information)
 
 #### Azure Cloud
-Also known as the International Cloud. Currently comprised of 30 regions world-wide.
+Also known as the International Cloud. Currently comprised of 36(?) regions world-wide.
 
 Sign Up: [https://azure.microsoft.com/free/](https://azure.microsoft.com/free/) 
 
@@ -120,6 +121,12 @@ Trial Registration Form: [https://azuregov.microsoft.com/trial/azuregovtrial](ht
 
 Endpoints: are [listed here](https://github.com/arafato/Azure-RampUp/blob/master/resources/endpoints.json#L42-L48) for your convenience or can be programmatically fetched via  
 `$ az cloud list --query "[?name == 'AzureUSGovernment'].endpoints"`
+
+#### Azure Australia Cloud
+Azure Australia Cloud is available through a unique partnership with Canberra Data Centers. Comprised of 4 regions in USA. No public registration.
+More information at [https://azure.microsoft.com/en-us/global-infrastructure/australia/](https://azure.microsoft.com/en-us/global-infrastructure/australia/) 
+
+Eligibility Form: [https://www.microsoft.com/en-au/central-regions-eligibility/](https://www.microsoft.com/en-au/central-regions-eligibility/)
 
 ### Regions
 The Azure platform is currently comprised of 54 regions world-wide with 10 regions announced.
